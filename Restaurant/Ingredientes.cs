@@ -8,8 +8,8 @@ namespace Restaurant
 {
     class Ingredientes
     {
-        public string Nombre;
-        public string Identificador;
+        public string Nombre {get; set;}
+        public string Identificador {get; set;}
 
         public Ingredientes(string nombre, string identificador)
         {
